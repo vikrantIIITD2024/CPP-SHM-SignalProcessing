@@ -1,0 +1,30 @@
+How to launch:
+Step 1: install g++ in your system (If you already have u can skip this step):
+
+For Ubuntu :
+copy and execute the below command in your terminal:
+sudo apt-get install g++
+
+For Arch Linux :
+copy and execute the below command in your terminal:
+sudo pacman -S gcc
+
+If u have installed the dependencies then we can move forward
+Step 2: navigate to the directory where the scripts are saved 
+Step 3: To Compile script A 
+write:
+g++ -o scriptA scriptA.cpp -lrt
+
+To Compile script B
+write:
+g++ -o scriptB scriptB.cpp -lrt
+
+To Compile script C
+write:
+g++ -o scriptC scriptC.cpp -lrt
+
+Step 4: If your is compiled successfully then u can run the below command 
+
+./scriptA
+./scriptB
+./scriptC
